@@ -1,0 +1,13 @@
+train: ./robo_datasets/coconut_train/images
+val: ./robo_datasets/coconut_valid/images
+test: ./robo_datasets/coconut_test/images
+
+nc: 1
+names: ['coco']
+
+roboflow:
+  workspace: datacorp-india-2ezju
+  project: coconuttree-gmf0y
+  version: 6
+  license: MIT
+  url: https://universe.roboflow.com/datacorp-india-2ezju/coconuttree-gmf0y/dataset/6

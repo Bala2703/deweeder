@@ -1,0 +1,13 @@
+train: ./robo_datasets/banana_train/images
+val: ./robo_datasets/banana_valid/images
+test: .robo_datasets/banana_test/images
+
+nc: 1
+names: ['BananaTree']
+
+roboflow:
+  workspace: datacorp-india-2ezju
+  project: bananatree
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/datacorp-india-2ezju/bananatree/dataset/1

@@ -1,0 +1,5 @@
+detect
+/home/ruthra/ros_workspaces/obs_det_ws/devel/.private/detect/cmake.lock /home/ruthra/ros_workspaces/obs_det_ws/devel/./cmake.lock
+/home/ruthra/ros_workspaces/obs_det_ws/devel/.private/detect/lib/pkgconfig/detect.pc /home/ruthra/ros_workspaces/obs_det_ws/devel/lib/pkgconfig/detect.pc
+/home/ruthra/ros_workspaces/obs_det_ws/devel/.private/detect/share/detect/cmake/detectConfig-version.cmake /home/ruthra/ros_workspaces/obs_det_ws/devel/share/detect/cmake/detectConfig-version.cmake
+/home/ruthra/ros_workspaces/obs_det_ws/devel/.private/detect/share/detect/cmake/detectConfig.cmake /home/ruthra/ros_workspaces/obs_det_ws/devel/share/detect/cmake/detectConfig.cmake

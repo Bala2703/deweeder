@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+    <node pkg="detect" name="yolo_node" type="detect.py" args="--weights $(find detect)/dependency/yolov5s.pt" output="screen"/>
+    <node pkg="distance" name="dist_node" type="find_dist.py" />
+</launch>
