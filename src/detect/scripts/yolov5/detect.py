@@ -393,7 +393,7 @@ def parse_opt():
     parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[640], help='inference size h,w')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='NMS IoU threshold')
-    parser.add_argument('--max-det', type=int, default=1, help='maximum detections per image')
+    parser.add_argument('--max-det', type=int, default=100, help='maximum detections per image')
     parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--view-img', action='store_true', help='show results', )
     parser.add_argument('--save-txt', action='store_true', help='save results to *.txt')
@@ -416,7 +416,7 @@ def parse_opt():
     parser.add_argument('--dnn', action='store_true', help='use OpenCV DNN for ONNX inference')
     parser.add_argument('--vid-stride', type=int, default=1, help='video frame-rate stride')
     opt = parser.parse_args()
-    opt.weights = '/home/ruthra/ros_workspaces/obs_det_ws/src/detect/dependency/yolov5s.pt'
+    opt.weights = '/home/r/ros_workspaces/obs_det_ws/src/detect/dependency/yolov5s.pt'
     opt.imgsz *= 2 if len(opt.imgsz) == 1 else 1  # expand
     print_args(vars(opt))
     return opt
